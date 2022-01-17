@@ -1,0 +1,53 @@
+.cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100% / 7);
+
+  
+  position: relative;
+  
+  padding: 10px;
+  
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  
+  color: white;
+
+  --icon-width: 20px;
+  --icon-height: 20px;
+}
+
+.cell.todayCell {
+  color: red;
+}
+
+.cell.foreignCell {
+  color: black;
+}
+
+.weekday{
+  margin-bottom: 15px;
+}
+
+.date{
+  margin-bottom: 15px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+
+  margin-right: 5px;
+}
+
+.eventsIcons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+  height: var(--icon-height);
+}

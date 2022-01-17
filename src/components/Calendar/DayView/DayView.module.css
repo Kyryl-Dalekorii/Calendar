@@ -1,0 +1,40 @@
+.dayView {
+  background-color: purple;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+
+  height: 100%;
+  
+}
+
+.panel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.month{
+  flex: 0.5 1 50%;
+}
+
+.left,
+.right {
+  flex: 0.25 1 25%;
+
+  padding: 10px;
+
+  background-color: black;
+  color: white;
+
+  border: none;
+
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.left{
+  border-right: 1px solid white;
+}
